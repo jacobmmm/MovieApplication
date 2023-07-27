@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "my-movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "make-model":"npx sequelize-cli model:generate --name RequestCount --attributes reqcounter:integer",
+    "migrate":"npx sequelize-cli db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
