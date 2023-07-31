@@ -1,2 +1,2 @@
 # MovieApplication
-This is a backend application for creating online collections of movies. We have endpoints for creating viewing and modifying movies and movie collection.
+#### This is a backend application for creating online collections of movies. We have endpoints for creating viewing and modifying movies and movie collection. We also have endpoints for counting the total number of requests (GET, POST, PUT combined) received by the server as well as for resetting request count to zero. The main stack used is node.js, express, and sequelize. We have used the MySQL database and postman to host the endpoints.
